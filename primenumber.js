@@ -1,13 +1,19 @@
-prime problem
-let num=13
-check the given number is prime or not
+function checkprime(num){
   let count=0;
-    for (i=1;i<=num;i+){
-        if(num%i!==0)
+    for (let i=1;i<=num;i++){
+        if(num%i==0)
         count++;
     
     }
-    if(coun==2){
+}
+    if(count==2){
+return true;
+}
+return false
+}
+let ans=checkprime(7)
+
+if(ans==true){
 console.log("yes ");
 }else {
 console.log("No");
