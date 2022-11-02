@@ -1,9 +1,8 @@
 function checkprime(num){
   let count=0;
-    for (let i=1;i<=num;i++){
-        if(num%i==0)
-        count++;
-    
+   for (let i=1;i<=num;i++){
+      if(num%i==0)
+        count++;    
     }
 }
     if(count==2){
@@ -15,6 +14,7 @@ let ans=checkprime(7)
 
 if(ans==true){
 console.log("yes ");
+
 }else {
 console.log("No");
 
